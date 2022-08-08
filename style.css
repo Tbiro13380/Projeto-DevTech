@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  /* a cada um 1rem sera considerado 10px */
+  font-size: 62.5%;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+/* ----- PRIMEIRA SESSAO / HEADER ----- */
+
+.primeira-sessao {
+  background-color: #151f35;
+  height: 110vh;
+}
+
+.header .conteiner {
+  width: 100%;
+  max-width: 75%;
+  margin: auto;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 12%;
+  padding: 2rem;
+}
+
+.logo {
+  width: 140px;
+  cursor: pointer;
+}
+
+.itens-header {
+  display: flex;
+  margin-top: 0.3%;
+  margin-left: 5%;
+  color: #f6f6f6;
+}
+
+.itens-header li {
+  list-style: none;
+}
+
+.itens-header a {
+  text-decoration: none;
+  color: white;
+  margin-left: 3rem;
+  font-size: 1.6em;
+}
+
+.linha {
+  border-bottom: solid 1px #f8f4f4;
+  margin-top: 15px;
+  width: 100%;
+  max-width: 75%;
+  margin: auto;
+}
+
+/* ----- PRIMEIRA SESSAO / HEADER ----- */
+
+/* ----- PRIMEIRA SESSAO / MAIN ----- */
+
+.main .conteiner {
+  width: 100%;
+  max-width: 75%;
+  margin: auto;
+}
+
+.main-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.main-texto {
+  color: white;
+  margin-right: 5rem;
+}
+
+.main-texto h1 {
+  font-size: 4.2rem;
+  max-width: 500px;
+  line-height: 5.5rem;
+}
+
+.main-texto p {
+  margin-top: 2rem;
+  font-size: 1.6rem;
+  color: #dedede;
+  max-width: 500px;
+  line-height: 150%;
+  letter-spacing: 0.1rem;
+}
+
+.main-texto button {
+  margin-top: 2rem;
+  font-size: 1.6rem;
+  color: white;
+  background-color: #248de9;
+  border: none;
+  padding: 1.5rem;
+  padding-left: 4.5rem;
+  padding-right: 4.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.main-imagem {
+  width: 450px;
+}
+
+/* ----- PRIMEIRA SESSAO / MAIN ----- */
