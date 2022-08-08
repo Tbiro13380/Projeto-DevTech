@@ -1,4 +1,4 @@
-# DevMentor Brasil - Página Empresa Dev Tech
+# Página Empresa Dev Tech
 
 ## Bem vindo! 👋
 
