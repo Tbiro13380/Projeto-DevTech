@@ -24,7 +24,7 @@ img {
 
 .header .conteiner {
   width: 100%;
-  max-width: 75%;
+  max-width: 95%;
   margin: auto;
 }
 
@@ -45,7 +45,6 @@ nav {
   display: flex;
   margin-top: 0.3%;
   margin-left: 5%;
-  color: #f6f6f6;
 }
 
 .itens-header li {
@@ -54,9 +53,13 @@ nav {
 
 .itens-header a {
   text-decoration: none;
-  color: white;
+  color: #f7f7f7;
   margin-left: 3rem;
   font-size: 1.6em;
+}
+
+.itens-header a:active {
+  color: #fff;
 }
 
 .linha {
@@ -73,7 +76,7 @@ nav {
 
 .main .conteiner {
   width: 100%;
-  max-width: 75%;
+  max-width: 95%;
   margin: auto;
 }
 
@@ -81,7 +84,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 10%;
+  padding: 8rem;
 }
 
 .main-texto {
@@ -110,7 +113,7 @@ nav {
   color: white;
   background-color: #248de9;
   border: none;
-  padding: 1.5rem;
+  padding: 1.3rem;
   padding-left: 4.5rem;
   padding-right: 4.5rem;
   border-radius: 0.5rem;
@@ -122,3 +125,267 @@ nav {
 }
 
 /* ----- PRIMEIRA SESSAO / MAIN ----- */
+
+/* ----- SEGUNDA SESSAO ----- */
+
+.segunda-sessao .conteiner {
+  width: 100%;
+  max-width: 100%;
+  margin: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+
+  text-align: center;
+
+  background-color: #f6f7f9;
+
+  padding: 8rem;
+}
+
+.segunda-sessao .conteiner h2 {
+  font-size: 4.2rem;
+}
+
+.segunda-sessao .conteiner p {
+  font-size: 2.2rem;
+}
+
+/* ----- SEGUNDA SESSAO ----- */
+
+/* ----- TERCEIRA SESSAO ----- */
+
+.terceira-sessao .conteiner {
+  width: 100%;
+  max-width: 75%;
+  margin: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.terceira1 {
+  margin-right: 2%;
+}
+
+.terceira1 h2 {
+  font-size: 4rem;
+  max-width: 700px;
+}
+
+.terceira1 p {
+  margin-top: 3rem;
+  font-size: 1.6rem;
+  max-width: 400px;
+}
+
+.terceira1 button {
+  margin-top: 3rem;
+  font-size: 1.6rem;
+  color: white;
+  background-color: #248de9;
+  border: none;
+  padding: 1.2rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.terceira2 {
+  background: linear-gradient(180deg, #0c78d7 0%, #439dec 53.65%, #0c78d7 100%);
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  border-radius: 1.5rem;
+
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.terceira2 h3 {
+  font-size: 1.5rem;
+  margin-left: 10%;
+  max-width: 80%;
+}
+
+.terceira2 span {
+  font-size: 1.1rem;
+  margin-left: 10%;
+  max-width: 80%;
+  margin-top: 5%;
+}
+
+.icon-1 {
+  background: rgba(253, 253, 253, 0.35);
+  width: 6rem;
+  height: 6rem;
+  padding: 4%;
+  border-radius: 3rem;
+  margin-left: 10%;
+  margin-bottom: 10%;
+}
+
+.terceira3 {
+  background: linear-gradient(180deg, #ffffff 0%, #eeeeee 53.65%, #ffffff 100%);
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  border-radius: 1.5rem;
+
+  color: black;
+
+  margin-left: 2%;
+
+  display: flex;
+  flex-direction: column;
+
+  padding-right: 1rem;
+}
+
+.terceira3 h3 {
+  font-size: 1.5rem;
+  margin-left: 10%;
+  max-width: 50%;
+}
+
+.terceira3 span {
+  font-size: 1.1rem;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.icon-2 {
+  background: rgba(186, 186, 186, 0.35);
+  width: 6rem;
+  height: 6rem;
+  padding: 4%;
+  border-radius: 3rem;
+  margin-left: 10%;
+  margin-bottom: 10%;
+}
+
+/* ----- QUARTA SESSAO ----- */
+
+.quarta-sessao {
+  background-color: #f6f7f9;
+}
+
+.quarta-sessao .conteiner {
+  width: 100%;
+  max-width: 75%;
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 8rem;
+}
+
+.quarta-sessao h2 {
+  font-size: 6.3rem;
+  text-align: center;
+  letter-spacing: 1rem;
+}
+
+.quarta-sessao p {
+  font-size: 1.6rem;
+  margin-top: 3rem;
+  max-width: 1200px;
+}
+
+/* ----- QUINTA SESSAO ----- */
+
+.quinta-sessao .conteiner {
+  width: 100%;
+  max-width: 75%;
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+
+  padding: 8rem;
+}
+
+.quinta-sessao h2 {
+  font-size: 3.2rem;
+}
+
+.quinta-sessao p {
+  font-size: 1.4rem;
+  margin-top: 2%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 40%;
+  margin: 0 auto;
+  background-color: #f6f7f9;
+  padding: 3%;
+  border-radius: 0.8rem;
+}
+
+input {
+  margin-bottom: 5%;
+  padding: 2%;
+  border-radius: 0.8rem;
+  border: none;
+  border: 1px solid rgba(187, 187, 187, 0.8);
+  color: black;
+}
+
+.submit {
+  background-color: #248de9;
+  color: white;
+  font-size: 1.6rem;
+}
+
+/* ----- MEDIAS QUERIES ----- */
+
+@media screen and (min-width: 1600px) {
+  .primeira-sessao {
+    height: 100vh;
+  }
+
+  nav {
+    padding: 3rem;
+  }
+
+  .main-div {
+    margin-top: 5%;
+  }
+
+  .logo {
+    width: 180px;
+  }
+
+  .itens-header a {
+    font-size: 2.2rem;
+  }
+
+  .main-texto h1 {
+    font-size: 6rem;
+    max-width: 700px;
+  }
+
+  .main-texto p {
+    font-size: 1.6rem;
+  }
+
+  .main-imagem {
+    width: 600px;
+  }
+}
+
+@media screen and (min-width: 1235px) {
+}

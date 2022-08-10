@@ -19,16 +19,16 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="primeira-sessao">
+    <section class="primeira-sessao" id="home">
       <header>
         <div class="conteiner">
           <nav>
             <img src="assets/logo.png" alt="logo" class="logo" />
             <ul class="itens-header">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Sobre</a></li>
-              <li><a href="#">Serviços</a></li>
-              <li><a href="#">Contatos</a></li>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#sobre">Sobre</a></li>
+              <li><a href="#servicos">Serviços</a></li>
+              <li><a href="#contatos">Contatos</a></li>
             </ul>
           </nav>
         </div>
@@ -36,7 +36,7 @@
 
       <div class="linha"></div>
 
-      <section class="main">
+      <div class="main">
         <div class="conteiner">
           <div class="main-div">
             <div class="main-texto">
@@ -52,9 +52,91 @@
             </div>
           </div>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
 
+    <section class="segunda-sessao" id="">
+      <div class="conteiner">
+        <div>
+          <h2>2 mil</h2>
+          <p>Usuários online</p>
+        </div>
+        <div>
+          <h2>15 mil</h2>
+          <p>Já usaram nosso sistema.</p>
+        </div>
+        <div>
+          <h2>700+</h2>
+          <p>Desafios online</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="terceira-sessao" id="servicos">
+      <div class="conteiner">
+        <div class="terceira1">
+          <h2>Levamos a sua empresa a outro nível.</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+            vulputate libero et velit interdum.
+          </p>
+          <button>Fazer orçamento</button>
+        </div>
+        <div class="terceira2">
+          <i data-feather="trending-up" class="icon-1"></i>
+          <h3>Fazemos toda gestao de marketing.</h3>
+          <span
+            >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+            vulputate libero et velit interdum.</span
+          >
+        </div>
+        <div class="terceira3">
+          <i data-feather="briefcase" class="icon-2"></i>
+          <h3>Gerenciamos todo trafego pago.</h3>
+          <span
+            >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+            vulputate libero et velit interdum.</span
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="quarta-sessao" id="sobre">
+      <div class="conteiner">
+        <h2>Sobre</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+          vulputate libero et velit interdum, ac aliquet odio mattis. Class
+          aptent taciti sociosqu ad litora torquent per conubia nostra, per
+          inceptos himenaeos. Curabitur tempus urna at turpis condimentum
+          lobortis.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+          vulputate libero et velit interdum, ac aliquet odio mattis. Class
+          aptent taciti sociosqu,
+        </p>
+      </div>
+    </section>
+
+    <section class="quinta-sessao" id="contatos">
+      <div class="conteiner">
+        <div>
+          <h2>Vamos fazer um orçamento?</h2>
+          <p>
+            Fique tranquilo, nosso orçamento é gratuito e sem nenhum
+            compromisso.
+          </p>
+        </div>
+      </div>
+      <form>
+        <input type="text" placeholder="Digite seu nome" />
+        <input type="email" placeholder="Digite seu email" />
+        <input type="text" placeholder="Telefone (DD) 99999-9999" />
+        <input type="submit" class="submit" value="Solicitar orçamento" />
+      </form>
+      <div></div>
+    </section>
     <!-- Biblioteca Feather para usar icons -->
     <script>
       feather.replace();
