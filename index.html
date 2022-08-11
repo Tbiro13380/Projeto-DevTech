@@ -23,6 +23,7 @@
       <header>
         <div class="conteiner">
           <nav>
+            <i data-feather="menu" class="menu"></i>
             <img src="assets/logo.png" alt="logo" class="logo" />
             <ul class="itens-header">
               <li><a href="#home">Home</a></li>
@@ -111,7 +112,7 @@
           inceptos himenaeos. Curabitur tempus urna at turpis condimentum
           lobortis.
         </p>
-        <p>
+        <p id="p2">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
           vulputate libero et velit interdum, ac aliquet odio mattis. Class
           aptent taciti sociosqu,
@@ -130,9 +131,19 @@
         </div>
       </div>
       <form>
-        <input type="text" placeholder="Digite seu nome" />
-        <input type="email" placeholder="Digite seu email" />
-        <input type="text" placeholder="Telefone (DD) 99999-9999" />
+        <input type="text" name="nome" required placeholder="Digite seu nome" />
+        <input
+          type="email"
+          name="email"
+          required
+          placeholder="Digite seu email"
+        />
+        <input
+          required
+          type="text"
+          name="telefone"
+          placeholder="Telefone (DD) 99999-9999"
+        />
         <input type="submit" class="submit" value="Solicitar orçamento" />
       </form>
       <div></div>

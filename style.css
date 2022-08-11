@@ -8,6 +8,7 @@
 html {
   /* a cada um 1rem sera considerado 10px */
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 img {
@@ -62,6 +63,11 @@ nav {
   color: #fff;
 }
 
+.menu {
+  display: none;
+  cursor: pointer;
+}
+
 .linha {
   border-bottom: solid 1px #f8f4f4;
   margin-top: 15px;
@@ -85,6 +91,10 @@ nav {
   justify-content: center;
   align-items: center;
   padding: 8rem;
+
+  flex-wrap: wrap;
+
+  gap: 4rem;
 }
 
 .main-texto {
@@ -137,6 +147,10 @@ nav {
   align-items: center;
   justify-content: center;
   justify-content: space-around;
+
+  flex-wrap: wrap;
+
+  gap: 5rem;
 
   text-align: center;
 
@@ -286,6 +300,8 @@ nav {
   display: flex;
   flex-direction: column;
 
+  flex-wrap: wrap;
+
   padding: 8rem;
 }
 
@@ -298,7 +314,6 @@ nav {
 .quarta-sessao p {
   font-size: 1.6rem;
   margin-top: 3rem;
-  max-width: 1200px;
 }
 
 /* ----- QUINTA SESSAO ----- */
@@ -387,5 +402,81 @@ input {
   }
 }
 
-@media screen and (min-width: 1235px) {
+@media only screen and (max-width: 768px) {
+  .linha {
+    display: none;
+  }
+
+  .itens-header a {
+    display: none;
+  }
+
+  .main-div {
+    padding: 0rem;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+
+    padding: 0rem;
+  }
+
+  .menu {
+    color: white;
+    width: 5rem;
+    height: 10rem;
+    display: flex;
+    margin-left: 1.2rem;
+  }
+
+  .logo {
+    display: flex;
+    width: 20rem;
+  }
+
+  .main-texto p {
+    display: none;
+  }
+
+  .main-texto button {
+    margin-left: 20%;
+  }
+
+  .main-texto h1 {
+    font-size: 3.8rem;
+    max-width: 1500px;
+    margin-left: 10%;
+  }
+
+  #p2 {
+    display: none;
+  }
+
+  .quarta-sessao .conteiner {
+    max-width: 100%;
+  }
+
+  .quinta-sessao .conteiner {
+    max-width: 100%;
+  }
+
+  .quinta-sessao .conteiner h2 {
+    font-size: 3rem;
+  }
+
+  .quinta-sessao p {
+    font: 1.2rem;
+    margin-top: 10%;
+    max-width: 800px;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .terceira-sessao .conteiner {
+    flex-wrap: wrap;
+    gap: 4rem;
+  }
 }
