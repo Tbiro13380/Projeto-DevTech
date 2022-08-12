@@ -16,11 +16,10 @@ img {
   width: 100%;
 }
 
-/* ----- PRIMEIRA SESSAO / HEADER ----- */
+/* ----- PRIMEIRA SESSAO / HEADER ----- */  
 
 .primeira-sessao {
   background-color: #151f35;
-  height: 110vh;
 }
 
 .header .conteiner {
@@ -91,10 +90,6 @@ nav {
   justify-content: center;
   align-items: center;
   padding: 8rem;
-
-  flex-wrap: wrap;
-
-  gap: 4rem;
 }
 
 .main-texto {
@@ -400,6 +395,7 @@ input {
   .main-imagem {
     width: 600px;
   }
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -442,7 +438,7 @@ input {
   }
 
   .main-texto button {
-    margin-left: 20%;
+    margin-left: 25%;
   }
 
   .main-texto h1 {
@@ -472,11 +468,29 @@ input {
     margin-top: 10%;
     max-width: 800px;
   }
+
+  form {
+  display: flex;
+  flex-direction: column;
+  max-width: 75%;
+  margin: 0 auto;
+  background-color: #f6f7f9;
+  padding: 5%;
+  border-radius: 0.8rem;
+  }
+
 }
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 900px) {
   .terceira-sessao .conteiner {
     flex-wrap: wrap;
     gap: 4rem;
+
   }
+
+  .main-div {
+    flex-wrap: wrap;
+    gap: 4rem;
+  }
+
 }
