@@ -11,3 +11,5 @@ Esse projeto é um desafio disponibilizado pelo site DevMentor
 ## Desafio
 
 Esse desafio é construir uma página da empresa fictícia DevTech e fazê-la parecer o mais próximo possível do design disponibilizado no figma.
+
+![Desktop](./assets/Desafio%20DevTech-2_page-0001.jpg)
