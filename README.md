@@ -4,9 +4,9 @@
 
 Esse projeto é um desafio disponibilizado pelo site DevMentor
 
-Veja aqui -> https://desafio-devtech.netlify.app
-
 [DevMentor Brasil](https://www.devmentor.com.br)
+
+Veja o resultado -> https://desafio-devtech.netlify.app
 
 **Para fazer este desafio, ultilizei HTML e CSS.**
 
